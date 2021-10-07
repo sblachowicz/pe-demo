@@ -1,5 +1,6 @@
 package properit.io.employeecrud.db;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
@@ -39,9 +40,11 @@ public class Employee {
     @Enumerated(EnumType.STRING)
     private Gender gender;
 
+    @JsonManagedReference
     @OneToMany(
             mappedBy = "employee",
-            fetch = FetchType.EAGER
+            fetch = FetchType.EAGER,
+            cascade = CascadeType.ALL
     )
     private Set<EmployeeAddress> addresses;
 }

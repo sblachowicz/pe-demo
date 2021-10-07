@@ -1,5 +1,6 @@
 package properit.io.employeecrud.db;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
@@ -36,7 +37,8 @@ public class EmployeeAddress {
     @Column(name = "zip_code")
     private String zipCode;
 
-    @ManyToOne
+    @JsonBackReference
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "employee_id")
     private Employee employee;
 }

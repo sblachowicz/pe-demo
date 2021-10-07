@@ -50,6 +50,7 @@ public class EmployeeService {
 
     @Transactional
     public boolean updateEmployee(Employee employee) {
+        logger.info("Updating employee with id={}", employee.getId());
         Employee dbEmployee = employeeRepository.findById(employee.getId()).orElseThrow(
                 () -> new ResourceNotFoundException("User with id=" + employee.getId() + " not found")
         );
@@ -68,7 +69,8 @@ public class EmployeeService {
         return true;
     }
 
-    public void deleteUserById(Long userId) {
-        employeeRepository.deleteById(userId);
+    public void deleteUserById(Long employeeId) {
+        logger.info("Deleting employee id={}", employeeId);
+        employeeRepository.deleteById(employeeId);
     }
 }

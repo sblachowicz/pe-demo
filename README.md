@@ -30,3 +30,9 @@ docker build --rm -t employeecrud:latest .
 ```
 docker run --rm -d -p 8088:8088 employeecrud:latest
 ```
+
+# API
+There is a Swagger UI listing all the endpoints:
+```
+localhost:8088/swagger-ui.html
+```

@@ -10,7 +10,6 @@ import properit.io.employeecrud.service.EmployeeService;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
-import java.net.http.HttpResponse;
 import java.util.List;
 
 @RestController

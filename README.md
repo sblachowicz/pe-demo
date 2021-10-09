@@ -16,6 +16,8 @@ java -jar employee-crud-0.0.1-SNAPSHOT.jar
 ```
 Project binds to port ``8088``
 
+Database is fed with some sample data (resources/employees.json) just before it is ready to accept connections.
+
 ### Docker
 You can also run the project in a container. In order to do that follow the steps:
 1. Build executable .jar:

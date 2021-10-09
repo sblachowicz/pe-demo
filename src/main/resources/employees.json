@@ -1,0 +1,124 @@
+[
+  {
+    "first_name": "Matylda",
+    "last_name": "Kalinowska",
+    "age": 23,
+    "gender": "FEMALE"
+  },
+  {
+    "first_name": "Janusz",
+    "last_name": "Czarnecki",
+    "age": 44,
+    "gender": "MALE",
+    "addresses": [
+      {
+        "street": "Ulicowa",
+        "street_number": "17g",
+        "city": "Poznań",
+        "zip_code": "45-356"
+      },
+      {
+        "street": "Piłsudskiego",
+        "street_number": "156",
+        "city": "Warszawa",
+        "zip_code": "33-234"
+      }
+    ]
+  },
+  {
+    "first_name": "Kajetan",
+    "last_name": "Górecki",
+    "age": 65,
+    "gender": "MALE",
+    "addresses": [
+      {
+        "street": "Krakowska",
+        "street_number": "123",
+        "city": "Kraków",
+        "zip_code": "67-356"
+      }
+    ]
+  },
+  {
+    "first_name": "Lila",
+    "last_name": "Marciniak",
+    "age": 45,
+    "gender": "FEMALE",
+    "addresses": [
+      {
+        "street": "Graniczna",
+        "street_number": "13",
+        "city": "Łódź",
+        "zip_code": "94-246"
+      }
+    ]
+  },
+  {
+    "first_name": "Alina",
+    "last_name": "Urbańska",
+    "age": 67,
+    "gender": "FEMALE",
+    "addresses": [
+      {
+        "street": "Piotrkowska",
+        "street_number": "456",
+        "city": "Łódź",
+        "zip_code": "94-111"
+      }
+    ]
+  },
+  {
+    "first_name": "Aleksander",
+    "last_name": "Zieliński",
+    "age": 33,
+    "gender": "MALE",
+    "addresses": [
+      {
+        "street": "Konstytucyjna",
+        "street_number": "134",
+        "city": "Gniezno",
+        "zip_code": "11-111"
+      }
+    ]
+  },
+  {
+    "first_name": "Heronim",
+    "last_name": "Brzeziński",
+    "age": 22,
+    "gender": "MALE",
+    "addresses": [
+      {
+        "street": "Wólczańska",
+        "street_number": "55",
+        "city": "Gdańsk",
+        "zip_code": "76-111"
+      }
+    ]
+  },
+  {
+    "first_name": "Mirosław",
+    "last_name": "Szymański",
+    "age": 66,
+    "gender": "MALE",
+    "addresses": [
+      {
+        "street": "Mickiewicza",
+        "street_number": "34",
+        "city": "Sopot",
+        "zip_code": "45-598"
+      }
+    ]
+  },
+  {
+    "first_name": "Ilona",
+    "last_name": "Makowska",
+    "age": 38,
+    "gender": "FEMALE"
+  },
+  {
+    "first_name": "Milena",
+    "last_name": "Wasilewska",
+    "age": 50,
+    "gender": "FEMALE"
+  }
+]
